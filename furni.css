@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topic h1 {
+  color: rgba(15, 43, 199, 0.685);
+  text-align: center;
+  align-self: auto;
+}
+
+.tab {
+  width: 200px;
+}
+
+.tab a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.tab a:hover {
+  background-color: #ccc;
+}
+
+ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid cornsilk;
+}
+
+.ul li a:hover {
+  background-size: 5px;
+  background-color: sandybrown;
+}
+
+.mainimage {
+  text-align: center;
+  background-size: cover;
+}
+.about h3 {
+  text-align: center;
+  background-color: rgb(33, 184, 13);
+  border-top-style: ridge;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.about p {
+  font-size: medium;
+  font-family: cursive;
+}
+
+.staff {
+  text-align: center;
+  background-color: rgb(33, 184, 13);
+  border-top-style: ridge;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.staff-1 {
+  text-align: center;
+  font-family: cursive;
+  color: crimson;
+}
+
+.contact h3 {
+  text-align: center;
+  background-color: rgb(33, 184, 13);
+  border-top-style: ridge;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-left-width: 30px;
+}
+
+label .inforone {
+  text-align: center;
+}
+
+.submit {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
